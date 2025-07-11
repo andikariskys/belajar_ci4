@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
 </head>
 
-<body class="h-100 d-flex flex-column">
+<body class="h-100 d-flex flex-column bg-light">
 <?= $this->include('layouts/navbar') ?>
 
 <div class="container">
     <?= $this->renderSection('content') ?>
 </div>
 
-<footer class="footer mt-auto py-3 bg-secondary">
+<footer class="footer mt-auto py-3 bg-dark">
         <div class="container text-center">
             <span class="text-white">Copyright &copy; 2025 - Codeigniter 4</span>
         </div>
